@@ -1,0 +1,34 @@
+# Directorios y artefactos de compilación
+build/
+bin/
+lib/
+
+# Archivos generados por CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+
+# Binarios y objetos
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.dSYM/
+
+# Ejecutables generados
+potencia
+unit_tests
+
+# Archivos del sistema y de entornos de desarrollo
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
